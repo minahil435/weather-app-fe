@@ -1,0 +1,23 @@
+.todolist-div {
+    width: 550px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .li-style {
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  #delete-button {
+    padding: 10px 10px;
+    background-color: #fc0303;
+    border-radius: 5px 5px;
+    color: white;
+    border-style: none;
+  }
+  
+  #delete-button:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+  }

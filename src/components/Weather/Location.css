@@ -1,0 +1,63 @@
+.form-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .form-div form > input {
+    width: 450px;
+    padding: 20px 20px;
+    border: none;
+    border-bottom: 1.5px solid blueviolet;
+  }
+  
+  .form-div form > input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid blueviolet;
+  }
+  
+  .form-div form > input:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .form-div form > button {
+    padding: 10px 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px 5px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  }
+
+ .weatherDescriptionBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+
+  }
+
+  .togetherDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  
+  .singleDiv{
+      width : 100px
+  }
+
+  .todo-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .heading{
+    font-size: 20px;
+  }
+  .description{
+    font-weight: bold;
+  }
+  
